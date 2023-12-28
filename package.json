@@ -1,0 +1,26 @@
+{
+  "name": "word-to-vue",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "word-to-vue"
+  ],
+  "scripts": {
+    "build": "node src/index.js --entry=word"
+  },
+  "description": "word-to-vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuolalaTech/word-to-vue"
+  },
+  "dependencies": {
+    "args": "^5.0.3",
+    "fs-extra": "^11.2.0",
+    "globby": "^14.0.0",
+    "prettier": "^3.1.1"
+  }
+}

@@ -1,0 +1,104 @@
+.page-demo{
+  height: 100vh;
+  // overflow-y: auto;
+  padding: 0.14rem;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+table {
+  margin: 0 auto;
+  // width: 3.54rem;
+  font-size: 0.12rem;
+  border-collapse: collapse;
+  font-family: PingFang SC, PingFang SC-Regular;
+  th{
+    text-align: center;
+    padding: 0.06rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+  }
+  td:nth-child(odd) {
+    text-align: center;
+  }
+  td:nth-child(even) {
+    text-align: left;
+    padding: 0.06rem;
+  }
+}
+.page-title{
+  text-align: center;
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+  // height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+  &.size{
+    font-size: 0.14rem;
+  }
+}
+.sub-title{
+  text-align: left;
+  color: rgba(0,0,0,0.7);;
+  line-height: 0.26rem;
+  font-size: 0.14rem;
+  padding: 0.1rem 0;
+  &.bold{
+    font-weight: bold;
+  }
+  &.center{
+    text-align: center;
+  }
+}
+.doc-normal{
+  font-family: PingFang SC, PingFang SC-Regular;
+  text-align: left;
+  color: rgba(0,0,0,0.6);
+  line-height: 0.3rem;
+  font-size: 0.12rem;
+  span.blue{
+    color: blue;
+  }
+  span.jump-blue{
+    color: blue;
+  }
+  &.red{
+    color: red;
+    line-height: 0.24rem;
+  }
+  &.bold{
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+    span{
+      font-weight: normal;
+      color: rgba(0,0,0,0.6);
+      &.jump-blue{
+        color: blue;
+        cursor: pointer;
+      }
+    }
+  }
+  span.bold{
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+  }
+}
+.last-line{
+  width: 100%;
+  font-family: PingFang SC, PingFang SC-Regular;
+  text-align: right;
+  color: rgba(0,0,0,0.6);
+  line-height: 0.3rem;
+  font-size: 0.12rem;
+  &.bold{
+    font-weight: bold;
+  }
+  &.line-center{
+    text-align: center;
+  }
+}
+.sub-line{
+  vertical-align: sub;
+}
+.up-line{
+  vertical-align: super;
+}
